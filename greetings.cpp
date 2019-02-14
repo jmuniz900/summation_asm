@@ -1,11 +1,19 @@
 /* Author name: Jose Muniz
-Program name: Summation of Input Numbers
-Names of files in this programming: summation_module.asm greetings.cpp run.sh
-Course number: CPSC 240
-Scheduled delivery date: February 18, 2019
-Program purpose: Compute area of triangle
-Status: Fully finished with known bug: wrong value returned to Main
-Date of last modification: Feb 15, 2019 */
+* Program name: Summation of Input Numbers
+* Names of files in this programming: summation_module.asm greetings.cpp run.sh
+* Course number: CPSC 240
+* Scheduled delivery date: February 18, 2019
+* Program purpose: Compute summation of integers
+* Status: Incomplete
+* Date of last modification: Feb 15, 2019 
+* Information about this module: Module was created to sum every integer 
+inputted into the X86 assembly code and returned to the driver module to
+be outputted.
+* This module purpose: Driver for computing summation of integers.
+* File name of this module: greetings.cpp
+Compile this module: g++ -c -m64 -std=c++99 -o area.o area.cpp
+Link this module with other objects:
+g++ -m64 -std=c++99 -o triangle.out area.o compute.o */
 #include <iostream>
 
 using namespace std;
